@@ -1,7 +1,7 @@
 package blackJack.card;
 
 public enum Denomination {
-    ACE     (1, "A"),
+    ACE     (11, "A"),
     TWO     (2, "2"),
     THREE   (3, "3"),
     FOUR    (4, "4"),
@@ -11,9 +11,9 @@ public enum Denomination {
     EIGHT   (8, "8"),
     NINE    (9, "9"),
     TEN     (10, "10"),
-    JACK    (10, "j"),
-    QUEEN   (10, "q"),
-    KING    (10, "k");
+    JACK    (10, "J"),
+    QUEEN   (10, "Q"),
+    KING    (10, "K");
 
     private int number;
     private String viewNumber;
